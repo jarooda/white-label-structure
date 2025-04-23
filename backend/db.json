@@ -1,0 +1,75 @@
+{
+  "features": {
+    "1": {
+      "id": 1,
+      "name": "Feature 1",
+      "description": "This is the description for Feature 1.",
+      "icon": "https://placehold.co/100x100?text=Icon+1"
+    },
+    "2": {
+      "id": 2,
+      "name": "Feature 2",
+      "description": "This is the description for Feature 2.",
+      "icon": "https://placehold.co/100x100?text=Icon+2"
+    },
+    "3": {
+      "id": 3,
+      "name": "Feature 3",
+      "description": "This is the description for Feature 3.",
+      "icon": "https://placehold.co/100x100?text=Icon+3"
+    }
+  },
+  "client-a": {
+    "id": "client-a",
+    "name": "Client A",
+    "logo": "https://placehold.co/300x100?text=Logo+Client+A",
+    "favicon": "https://placehold.co/100x100?text=Favicon+Client+A",
+    "description": "Client A is a leading provider of innovative solutions in the tech industry.",
+    "robots": [
+      {
+        "User-agent": "*",
+        "Disallow": ["/admin", "/admin/*"],
+        "Allow": []
+      }
+    ],
+    "theme": {
+      "primaryColor": "247",
+      "layout": "default"
+    },
+    "glossary": {
+      "hello": "Halo Dunia",
+      "goodbye": "Selamat Tinggal",
+      "thank_you": "Terima Kasih"
+    },
+    "features": [1, 2, 3]
+  },
+  "client-b": {
+    "id": "client-b",
+    "name": "Client B",
+    "logo": "https://placehold.co/300x100?text=Logo+Client+B",
+    "favicon": "https://placehold.co/100x100?text=Favicon+Client+B",
+    "description": "Client B is a global leader in providing top-notch services and products.",
+    "robots": [
+      {
+        "User-agent": "*",
+        "Disallow": ["/private", "/temp"],
+        "Allow": ["/public", "/blog"]
+      },
+      {
+        "User-agent": "Googlebot",
+        "Disallow": ["/no-google"],
+        "Allow": ["/google-special"]
+      }
+    ],
+    "theme": {
+      "primaryColor": "341",
+      "layout": "sidebyside"
+    },
+    "glossary": {
+      "hello": "Halo Halo Bandung",
+      "goodbye": "Buh Byee",
+      "thank_you": "Kamsia"
+    },
+    "features": [1, 2]
+  }
+}

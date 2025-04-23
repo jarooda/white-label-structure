@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This backend serves as a mock API for the white-label structure project. It provides a JSON server to simulate a RESTful API for client applications.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server db.json --port 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

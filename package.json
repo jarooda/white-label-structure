@@ -1,0 +1,26 @@
+{
+  "name": "white-label-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter client-customer dev & pnpm --filter client-moderator dev & pnpm --filter backend dev",
+    "build": "pnpm --filter client-customer build & pnpm --filter client-moderator build",
+    "preview": "pnpm --filter client-customer preview & pnpm --filter client-moderator preview & pnpm --filter backend dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "backend"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "@pinia/nuxt": "0.11.0",
+    "nuxt": "^3.16.2",
+    "pinia": "^3.0.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  }
+}
