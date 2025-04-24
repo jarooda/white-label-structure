@@ -1,3 +1,5 @@
+// Used in the /client-customer/components/MyInvoice.vue
+
 import { ref } from 'vue';
 import type { Invoice } from '../types';
 import { getInvoice } from '../api/invoice';

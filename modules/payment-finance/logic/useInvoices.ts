@@ -1,3 +1,5 @@
+// Used in the /client-moderator/components/ListInvoices.vue
+
 import { ref } from 'vue';
 import type { Invoice } from '../types';
 import { getListInvoice } from '../api/invoice';

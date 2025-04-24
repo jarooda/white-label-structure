@@ -1,3 +1,7 @@
+# Client
+
+This is client example, it contain its UI & UX components and pages (routing)
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
